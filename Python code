@@ -1,0 +1,7 @@
+first_list = ['great','hello','hiyo','abc']
+
+print ("first list", str(first_list))
+
+first_list.sort(key = lambda x: x[-2])
+	
+print ("second list ", str(first_list))
